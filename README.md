@@ -43,7 +43,7 @@ NOTE:
 
 ## What can I win?
 * Registration, Flights and accommodation to the Esri European Developer Summit in Berlin (24th - 26th October)
-* iPad 2 Air 32GB
+* iPad
 * £100 Amazon voucher
 
 ## Judging Criteria
