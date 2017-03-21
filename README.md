@@ -33,7 +33,7 @@ The winners will be announced at the Esri UK Annual Conference 16th May 2017.
 
 ## How to Enter
 1. Fork and then clone this repo.
-2. Add a sub-folder with your app in it (see [example](basemaptour)).
+2. Add a sub-folder in submissions with your app in it (see [example](submissions/SampleSubmission)).
 3. Make a pull request on the **master** branch to submit your entry. 
 #### This request represents your agreement to the [Terms and Conditions](https://github.com/maplabs/100lines/blob/master/Terms%20and%20Conditions%20Agreement.md).
 
@@ -56,7 +56,7 @@ NOTE:
 
 ## Example Entry
 
-Follow the structure of [this](submissions/SampleSubmission) example.  View it live [here](https://github.com/maplabs/100lines/submissions/SampleSubmission/index.html).
+Follow the structure of [this](submissions/SampleSubmission) example.  View it live [here](http://htmlpreview.github.io/?https://github.com/maplabs/100lines/blob/master/submissions/SampleSubmission/index.html).
 
 
 ```
