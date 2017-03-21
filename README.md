@@ -11,7 +11,7 @@
 6. Applications must be freely distributable via apache 2.0 license.
 7. Applicants must be 18+ and be living in the UK.
 8. Able to attend the [Esri UK Annual Conference](http://www.esriuk.com/events/ac17) on the 16th May 2017.
-##### By submitting your application you're agreeing to the terms and conditions. Full list of which can be found [here](https://github.com/maplabs/100lines/Terms%20and%20Conditions%20Agreement.md).
+##### By submitting your application you're agreeing to the terms and conditions. Full list of which can be found [here](https://github.com/maplabs/100lines/blob/master/Terms%20and%20Conditions%20Agreement.md).
 
 
 ## Verification
@@ -34,7 +34,7 @@ The winners will be announced at the Esri UK Annual Conference 16th May 2017.
 1. Fork and then clone this repo.
 2. Add a sub-folder with your app in it (see [example](basemaptour)).
 3. Make a pull request on the **master** branch to submit your entry. 
-#### This request represents your agreement to the [Terms and Conditions](https://github.com/maplabs/100lines/Terms%20and%20Conditions%20Agreement.md).
+#### This request represents your agreement to the [Terms and Conditions](https://github.com/maplabs/100lines/blob/master/Terms%20and%20Conditions%20Agreement.md).
 
 NOTE: 
 * Be sure to Pull and Merge from this repo to get the latest before making your pull request!  We'll publish the app for you.
@@ -125,5 +125,3 @@ limitations under the License.
 
 
 A copy of the license is available in the repository's [license.txt](https://github.com/maplabs/100lines/license.txt) file.
-[](Esri Tags: ArcGIS Web Mapping Contest 100-lines-or-less Code-Challenge Responsive Mobile)
-[](Esri Language: JavaScript)
