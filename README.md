@@ -1,6 +1,6 @@
 ### 100 Lines or Less Developer Challenge!
 
-<img src="https://github.com/maplabs/100lines/images/topBanner.jpg">
+<img src="https://github.com/maplabs/100lines/blob/master/images/topBanner.jpg?raw=true">
 
 ## Rules
 1. Maximum of 100 Lines of beautified JavaScript code. (Your CSS and HTML code can be as long as you want).
