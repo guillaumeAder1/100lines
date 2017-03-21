@@ -24,7 +24,7 @@ Braces with control statement.
 
 ## Contest Period
 - Starts: 17:00 GMT Tuesday 21th March 2017
-- Closes: 24:00 GMT Sunday 23rd April, 2017 (No entries will be accepted after this time.) 
+- Closes: 23:59 BST Sunday 23rd April, 2017 (No entries will be accepted after this time.) 
 
 You will be contacted via email by 28th of April if you've been shortlisted, see note section below.
 
