@@ -125,4 +125,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 
-A copy of the license is available in the repository's [license.txt](https://github.com/maplabs/100lines/license.txt) file.
+A copy of the license is available in the repository's [license.txt](https://github.com/maplabs/100lines/blob/master/license.txt) file.
