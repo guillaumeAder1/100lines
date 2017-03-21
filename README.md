@@ -106,8 +106,8 @@ Good luck!
 * [Esri UK Annual Conference](http://www.esriuk.com/events/ac17)
 * [ArcGIS API for JavaScript](https://developers.arcgis.com/en/javascript/index.html)
 * [ArcGIS Blog](http://blogs.esri.com/esri/arcgis/)
-* [@esriukgeodev](http://twitter.com/esridevsummit) Esri UK's developer twitter account
-* [@esriuk](http://twitter.com/esridevsummit) Esri UK's main twitter account
+* [@esriukgeodev](http://twitter.com/esriukgeodev) Esri UK's developer twitter account
+* [@esriuk](http://twitter.com/esriuk) Esri UK's main twitter account
 
 ## Licensing
 Copyright 2017 Esri UK
