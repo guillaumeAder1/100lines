@@ -1,5 +1,7 @@
 ### 100 Lines or Less Developer Challenge!
 
+Have you got what it takes to create an app in 100 lines or less using the ArcGIS JavaScript API? If shortlisted will be given the opportunity to showcase your app on the developer floor at [Esri UK’s Annual Conference](http://www.esriuk.com/events/ac17). Get creative!
+ 
 <img src="https://github.com/maplabs/100lines/blob/master/images/topBanner.jpg?raw=true">
 
 ## Rules
