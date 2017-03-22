@@ -13,7 +13,7 @@ Have you got what it takes to create an app in 100 lines or less using the ArcGI
 6. Applications must be freely distributable via apache 2.0 license.
 7. Applicants must be 18+ and be living in the UK.
 8. Able to attend the [Esri UK Annual Conference](http://www.esriuk.com/events/ac17) on the 16th May 2017.
-9. Must not be an employee at Esri UK
+9. You may only enter this competition if you are a resident of the United Kingdom and are aged 18 years or over. Employees (and employees immediate family and their household members) of ESRI (UK) Limited, ESRI Ireland, ESRI Holdings Group and ESRI Inc. may not apply.  
 ##### By submitting your application you're agreeing to the terms and conditions. Full list of which can be found [here](https://github.com/maplabs/100lines/blob/master/Terms%20and%20Conditions%20Agreement.md).
 
 
