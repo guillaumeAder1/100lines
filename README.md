@@ -1,4 +1,4 @@
-### Esri UK's 100 Lines or Less Developer Challenge 2017!
+### **Esri UK's 100 Lines or Less Developer Challenge 2017!**
 
 Have you got what it takes to create an app in 100 lines or less using the ArcGIS JavaScript API? If shortlisted will be given the opportunity to showcase your app on the developer floor at [Esri UK’s Annual Conference](http://www.esriuk.com/events/ac17). Get creative!
  
