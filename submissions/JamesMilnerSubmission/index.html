@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>SampleSubmission</title>
+
+  <link rel="stylesheet" href="https://js.arcgis.com/4.3/esri/css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Compiled and minified CSS -->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+  
+  <script src="https://js.arcgis.com/4.3/"></script>
+  <script src="js/main.js"></script>
+  
+</head>
+
+<body>
+  <div id="viewDiv"></div>
+    <div id="bottom" class="row">
+      <div id="button-holder" class="col s12 m6">
+        <div class="col s12 m6">  
+          <a id="record" class="waves-effect waves-light red btn"><i class="material-icons right">videocam</i>Record</a>
+        </div>
+        <div class="col s12 m6">  
+          <a id="play" class="waves-effect waves-light red btn"><i class="material-icons right">forward</i>Play</a>
+        </div>
+      </div>
+      <div class="input-field col s12 m6">
+          <select id="playback">
+            <option value="0.5">Slow</option>
+            <option value="0.8" selected>Normal</option>
+            <option value="1.2">Fast</option>
+          </select>
+          <label>Playback Speed</label>
+      </div>
+    </div>
+
+
+  
+</body>
+
+</html>
