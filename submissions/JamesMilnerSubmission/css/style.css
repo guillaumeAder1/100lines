@@ -17,8 +17,7 @@ body,
 }
 
 #button-holder {
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding: 1%;
 }
 
 #record, #play{

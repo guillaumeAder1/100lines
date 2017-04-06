@@ -1,11 +1,12 @@
+// Initialise Materialize
+$(document).ready(function() {
+	$('select').material_select();
+});
+
 require(["esri/Map", "esri/views/SceneView", "esri/layers/FeatureLayer", 
     "esri/renderers/UniqueValueRenderer",
 	"esri/symbols/SimpleLineSymbol", "dojo/dom", "dojo/dom-class", "dojo/domReady!"
 ], function(Map, SceneView, FeatureLayer, UniqueValueRenderer, SimpleLineSymbol, dom, domClass) {
-
-	$(document).ready(function() {
-		$('select').material_select();
-	});
 
 	var map = new Map({
 		basemap: "hybrid",
