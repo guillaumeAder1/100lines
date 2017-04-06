@@ -1,5 +1,3 @@
-### Sample app submission
+### World Recorder
 
-Taken from 
-https://developers.arcgis.com/javascript/latest/sample-code/sandbox/index.html?sample=view-hittest
-
+Record a journey around the world using the controls on the bottom bar.
