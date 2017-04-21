@@ -1,5 +1,8 @@
-### Sample app submission
+### Flight Tracking with ARCGIS JS API
 
-Taken from 
-https://developers.arcgis.com/javascript/latest/sample-code/sandbox/index.html?sample=view-hittest
 
+Tool for inspecting aircraft movements in 3D using SceneView
+
+Click on individual points to get further information on particular aircraft.
+
+Using data from the OpenSky API https://opensky-network.org/apidoc/rest.html
