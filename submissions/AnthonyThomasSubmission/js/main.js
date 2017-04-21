@@ -27,7 +27,6 @@ require(["esri/Map", "esri/views/SceneView", "esri/layers/GraphicsLayer", "esri/
         if (response.results.length == 0) return;
         var point = response.results[0];
         view.popup.open({
-            // Set the popup's title to the coordinates of the clicked location
             title: "Flight: " + point.graphic.attributes['Flight'],
             content: "Callsign : " + point.graphic.attributes['CallSign'] + "From : " + point.graphic.attributes['Origin'],
             location: point.mapPoint // Set the location of the popup to the clicked location
