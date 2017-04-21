@@ -1,12 +1,19 @@
-require(["esri/Map", "esri/views/SceneView", "esri/layers/GraphicsLayer","esri/Graphic", 
-    "esri/renderers/UniqueValueRenderer",
-	"esri/symbols/SimpleLineSymbol", "dojo/dom", "dojo/domReady!","dojo/request/xhr"
-], function(Map, SceneView, Graphicslayer, Graphic, UniqueValueRenderer, SimpleLineSymbol, dom, domReady, xhr) {
+require(["esri/Map",
+		 "esri/views/SceneView",
+		 "esri/layers/GraphicsLayer",
+		 "esri/Graphic",
+		 "esri/geometry/Point", 
+    	 "esri/renderers/UniqueValueRenderer",
+		 "esri/symbols/SimpleMarkerSymbol",
+		 "esri/symbols/WebStyleSymbol",
+		 "dojo/dom",
+		 "dojo/domReady!",
+		 "dojo/request/xhr"
+], function(Map, SceneView, Graphicslayer, Graphic, Point, UniqueValueRenderer, SimpleMarkerSymbol,WebStyleSymbol, dom, domReady, xhr) {
 	
-	var graphic = new Graphic();
-
+	
 	var layer = new Graphicslayer({
-		graphics: [graphic]
+		graphics: []
 	});
 	var map = new Map({
 		basemap: "topo",
@@ -20,14 +27,6 @@ require(["esri/Map", "esri/views/SceneView", "esri/layers/GraphicsLayer","esri/G
 	});
 	view.ui.add("info", "top-right");
 	
-	view.on("pointer-move", function(evt) {
-		var screenPoint = {
-			x: evt.x,
-			y: evt.y
-		};
-		// view.hitTest(screenPoint).then(getGraphics);
-		getFlights();
-	});
 
 	function getGraphics(response) {
 		var graphic = response.results[0].graphic;
@@ -60,11 +59,63 @@ require(["esri/Map", "esri/views/SceneView", "esri/layers/GraphicsLayer","esri/G
 
 	}
 
+
+	function Flight(data){
+		this.icao24 = data[0];
+		this.callSign = data[1];
+		this.originCountry = data[2];
+		this.timePosition = data[3];
+		this.timeVelocity = data[4];
+		this.longitude = data[5];
+		this.latitude = data[6];
+		this.altitude = data[7];
+		this.onGround = data[8];
+		this.velocity = data[9];
+		this.heading = data[10];
+		this.verticalRate = data[11];
+		this.sensors = data[12];
+	}
+
 	function processFlights(response){
 		var dataArray = JSON.parse(response).states;
 
-		console.log(dataArray[0]);
+		var flightPoints = dataArray.map(function(dt){
+			var flight  = new Flight(dt);
 
+			var point =  new Point({
+				longitude: flight.longitude,
+				latitude: flight.latitude,
+				z: flight.altitude
+			})
+
+			 var markerSymbol = new SimpleMarkerSymbol({
+			    color: [226, 119, 40],
+
+			    outline: { // autocasts as new SimpleLineSymbol()
+			      color: [255, 255, 255],
+			      width: 2
+			    }
+			  });
+
+			var pointGraphic = new Graphic({
+			  geometry: point,
+			  symbol: markerSymbol
+			});
+
+			return pointGraphic;
+		});
+
+		// plot the flight data as a point on the map
+		// London
+        // var point = new Point({
+        //     longitude: -0.178,
+        //     y: 51.48791,
+        //     z: 1010
+        //   });
+
+        layer.graphics = flightPoints;
+
+		console.log(flights[0]);
 
 	}
 	view.then(function() {
@@ -75,5 +126,16 @@ require(["esri/Map", "esri/views/SceneView", "esri/layers/GraphicsLayer","esri/G
 			renderer.symbol.cap = "round";
 			layer.renderer = renderer;
 		});
+		getFlights();
 	});
+
+	// var webStyleSymbol = new WebStyleSymbol({
+	//   name: "Eurocopter_H125_-_Flying",
+	//   portal: {
+	//     url: "https://www.arcgis.com"
+	//   },
+	//   styleName: "EsriRealisticTransportationStyle"
+	// });
+
+
 });
