@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>Hot Air Balloon Sim</title>
+
+  <link rel="stylesheet" href="https://esri.github.io/calcite-maps/dist/css/calcite-maps-bootstrap.min-v0.3.css">
+  <link rel="stylesheet" href="https://esri.github.io/calcite-maps/dist/css/calcite-maps-arcgis-4.x.min-v0.3.css">
+  <link rel="stylesheet" href="https://js.arcgis.com/4.3/esri/css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://js.arcgis.com/4.3/"></script>
+  <script src="js/main.js"></script>
+
+</head>
+
+<body class="calcite-maps calcite-nav-top">
+  <nav class="navbar calcite-navbar navbar-fixed-top calcite-text-light calcite-bgcolor-red">
+    <div class="calcite-title calcite-overflow-hidden">
+      <span class="calcite-title-main">Hot Air Balloon Simulator</span>
+      <span class="calcite-title-divider hidden-xs"></span>
+      <span class="calcite-title-sub hidden-xs">Take a virtual flight</span>
+    </div>
+  </nav>
+
+  <div class="calcite-map calcite-map-absolute">
+    <div id="viewDiv"></div>
+  </div>
+
+  <div class="calcite-panels calcite-panels-right calcite-text-light calcite-bgcolor-red panel-group">
+    <div class="panel-heading">
+      <div class="panel-title">
+          Pick a location by centering the map over it, then ...
+      </div>
+    </div>
+    <div class="panel-body">
+      <button type="button" class="btn btn-default" id="goToStart">Prepare to take off</button><br />
+      <button type="button" class="btn btn-default" id="ascend">Start the ascent</button><br />
+      <button type="button" class="btn btn-default" id="descend">Start the descent</button>
+    </div>
+
+  </div>
+</body>
+
+</html>
