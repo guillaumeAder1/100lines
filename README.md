@@ -1,3 +1,5 @@
+Thank you everyone who entered! A reminder that this competition is now cosed. You can be the first to know if we run it again in 2018 by watching/ staring this directory for updates.
+
 ## Esri UK's 100 Lines or Less Developer Challenge 2017!
 
 Have you got what it takes to create an app in 100 lines or less using the ArcGIS JavaScript API? If shortlisted will be given the opportunity to showcase your app on the developer floor at [Esri UK’s Annual Conference](http://www.esriuk.com/events/ac17). Get creative!
